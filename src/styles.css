@@ -1,0 +1,14 @@
+#banner1{
+    background-image: url('../src/assests/banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(1, 1, 72, 0.433);
+    background-blend-mode: multiply;
+    min-height: 40vh;
+    transition: all 0.9s ease-in-out;
+}
+
+#banner1:hover{
+    background-blend-mode: color-burn;
+}
