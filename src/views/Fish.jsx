@@ -12,7 +12,6 @@ export default function Fish() {
     probarApi();
   }, []);
 
-  //const imagenesRuta = require.context('../assests/peces', true);
   let varPeces = peces;
 
   return (
